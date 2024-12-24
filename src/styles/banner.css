@@ -1,0 +1,24 @@
+.sbt-banner {
+  color: black;
+  text-align: right;
+  padding: 32px;
+  border-bottom: solid 3px black;
+  display: flex ; 
+  justify-content: flex-end; 
+  flex-direction: row;
+   align-items: right; 
+
+}
+
+ .sbt-title {
+  padding-left: 42px;
+
+} 
+
+.sbt-logo {
+    height: 60px;
+    width: 60px;
+    align-items: right;
+
+}
+
