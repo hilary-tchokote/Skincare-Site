@@ -1,126 +1,142 @@
 import hyalu from '../assets/hyalu.jpg'
 export const productList = [
     {
-        name: 'La Roche-Posay Hyalu B5 Serum',
+        name: 'La Roche-Posay Hyalu Serum',
         category: 'serum',
-        id: '1lr',
+        id: '1',
         isBestSale: true,
         isSpecialOffer: true,
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 30
     },
     {
-        name: 'CeraVe Resurfacing Retinol Serum',
+        name: 'CeraVe Retinol Serum',
         category: 'serum',
-        id: '2cv',
+        id: '2',
         isSpecialOffer: true,
         careTime : 'night',
-        cover : hyalu
+        cover : hyalu,
+        price : 32
     },
     {
         name: 'Bioderma Hydrabio Serum',
         category: 'serum',
-        id: '3bd',
+        id: '3',
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 35
     },
     {
-        name: 'La Roche-Posay Anthelios Invisible Fluid SPF 50+',
+        name: 'La Roche-Posay Anthelios SPF 50+',
         category: 'sunscreen',
-        id: '4lr',
+        id: '4',
         isSpecialOffer: true,
         careTime : 'day',
-        cover : hyalu
+        cover : hyalu,
+        price : 16
     },
     {
-        name: 'CeraVe Hydrating Mineral Sunscreen SPF 50',
+        name: 'CeraVe Sunscreen SPF 50',
         category: 'sunscreen',
-        id: '5cv',
+        id: '5',
         isBestSale: true,
         careTime : 'day',
-        cover : hyalu
+        cover : hyalu,
+        price : 15
     },
     {
-        name: 'Avène Very High Protection Fluid SPF 50+',
+        name: 'Avène Protection SPF 50+',
         category: 'sunscreen',
-        id: '6av',
+        id: '6',
         careTime : 'day',
-        cover : hyalu
+        cover : hyalu,
+        price : 18
     },
     {
         name: 'CeraVe Moisturizing Cream',
         category: 'moisturizer',
-        id: '7cv',
+        id: '7',
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 19
 
     },
     {
-        name: 'La Roche-Posay Toleriane Sensitive Riche',
+        name: 'La Roche-Posay Toleriane',
         category: 'moisturizer',
-        id: '8lr',
+        id: '8',
         isBestSale: true,
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 20
     },
     {
         name: 'Avène Hydrance Aqua-Gel',
         category: 'moisturizer',
-        id: '9av',
+        id: '9',
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 17
     },
     {
         name: 'CeraVe Hydrating Cleanser',
         category: 'cleanser',
-        id: '10cv',
+        id: '10',
         isSpecialOffer: true,
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 20
     },
     {
-        name: 'La Roche-Posay Effaclar Purifying Gel',
+        name: 'La Roche-Posay Effaclar Gel',
         category: 'cleanser',
-        id: '11lr',
+        id: '11',
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 18
     },
     {
-        name: 'La Roche-Posay Hyalu B5 Eye Serum',
+        name: 'La Roche-Posay B5 Eye Serum',
         category: 'eye care',
-        id: '12lr',
+        id: '12',
         careTime : 'night',
-        cover :hyalu
+        cover :hyalu,
+        price : 26
     },
     {
         name: 'CeraVe Eye Repair Cream',
         category: 'eye care',
-        id: '13cv',
+        id: '13',
         careTime : 'night',
-        cover : hyalu
+        cover : hyalu,
+        price : 28
     },
     {
-        name: 'Avène Soothing Eye Contour Cream',
+        name: 'Avène Eye Contour Cream',
         category: 'eye care',
-        id: '14av',
+        id: '14',
         isSpecialOffer: true,
         careTime : 'night',
-        cover : hyalu
+        cover : hyalu,
+        price : 27
     },
     {
-        name: 'La Roche-Posay Serozinc Toner',
+        name: 'La Roche-Posay Toner',
         category: 'toner',
-        id: '15lr',
+        id: '15',
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 15
     },
     {
         name: 'Pixi Glow Tonic',
         category: 'toner',
-        id: '16px',
+        id: '16',
         isBestSale: true,
         careTime : 'day and night',
-        cover : hyalu
+        cover : hyalu,
+        price : 17
     },
 
 ];

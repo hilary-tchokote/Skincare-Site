@@ -1,6 +1,6 @@
 
 
-function CareScale({ careTime }) {
+function CareScale({ careTime, onClick }) {
     // const frequency = ['day', 'night', 'day and night']
 
     let care;
@@ -15,7 +15,7 @@ function CareScale({ careTime }) {
     } 
 
     return (
-        <div>
+        <div onClick={onClick}>
             {care}
         </div>
     )

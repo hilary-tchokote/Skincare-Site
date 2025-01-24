@@ -1,0 +1,141 @@
+/* @tailwind base; */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.sbt-layout-inner {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.sbt-cart {
+	color: black;
+	background-color:bisque;
+	padding: 32px;
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+.sbt-cart-add-button {
+  margin-left: 32px;
+	cursor: pointer;
+}
+
+.sbt-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+}
+
+.sbt-cart-closed {
+	padding: 32px;
+	width: 200px;
+}
+
+.sbt-cart-closed > button {
+	color: black;
+}
+
+.sbt-product-item-cover{
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+	/* border-bottom: 1px solid #ddd; */
+	
+  }
+
+  .sbt-product-item{
+  margin: 10px;
+  display: flex; 
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+   /* border : solid 2px black; 
+   border-radius: 10px;
+   height: 300px;
+   width: 300px;
+   margin: 10px;
+   position: relative;
+   list-style: none;
+   background-color: white;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   transition: transform 0.2s; */
+ 
+ }
+/* 
+.sbt-sales{
+  position: absolute;
+ right: 0px;
+top: 10px;
+font-weight: 500;
+color: white;
+padding: 5px 10px;
+background-color: #31b572;
+border-radius: 5px;
+
+} */
+
+.sbt-product-list{
+  list-style-type: none;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* max-width: 800px; */
+  /* gap: 20px; */
+  /* grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); */
+
+}
+
+.sbt-shopping-list {
+  width: 100%;
+
+}
+
+.sbt-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.sbt-categories-select {
+	margin-right: 15px;
+}
+
+.sbt-footer {
+	color: black;
+	padding: 32px;
+	border-top: solid 3px black;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 500;
+}
+
+/* .sbt-footer-elem {
+	margin-bottom: 10px;
+} */
