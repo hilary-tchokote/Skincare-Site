@@ -1,0 +1,23 @@
+{
+  "cart": "Cart",
+  "language": "Language",
+  "search_products": "Search Products",
+  "your_cart": "Your Cart",
+  "total": "Total",
+  "empty_cart": "Your cart is empty",
+  "add_products": "Add Products to Cart",
+  "bestsellers": "Best Sellers ⭐⭐⭐",
+  "payment": "Pay with Paypal",
+  "sucessfull_insription" : "You have successfully registered",
+  "sucessfull_login" : "You have successfully logged in",
+  "sign_up" : "Sign Up",
+  "login" : "Login",
+  "username" : "Username",
+  "entrez_votre_nom" : "Enter your name",
+  "email": "Email",
+  "entrez_votre_email" : "Enter your email",
+  "password": "Password",
+  "entrez_votre_mot_de_passe" : "Enter your password",
+  "already_have_account" : "Already have an account?",
+  "no_account" : "Don't have an account?"
+}

@@ -10,11 +10,19 @@
     "@mui/material": "^6.3.1",
     "@mui/styled-engine": "^6.3.1",
     "@mui/system": "^6.3.1",
+    "@paypal/react-paypal-js": "^8.8.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.2",
+    "i18next-http-backend": "^3.0.2",
+    "i18next-parser": "^9.1.0",
+    "lucide-react": "^0.474.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
+    "react-paypal-button-v2": "^2.6.3",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.4.16",
     "web-vitals": "^2.1.0"
@@ -23,7 +31,8 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract-translations": "i18next 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "eslintConfig": {
     "extends": [

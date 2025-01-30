@@ -1,0 +1,23 @@
+{
+  "cart": "Panier",
+  "language": "Langue",
+  "search_products": "Rechercher des produits",
+  "your_cart": "Votre panier",
+  "total": "Total",
+  "empty_cart": "Votre panier est vide",
+  "add_products": "Ajouter des produits au panier",
+  "bestsellers": "Meilleures Ventes ⭐⭐⭐",
+  "payment": "Payer avec Paypal",
+  "sucessfull_insription" : "Vous vous êtes inscrit avec succès",
+  "sucessfull_login" : "Vous vous êtes connecté avec succès",
+  "sign_up" : "Inscription",
+  "login" : "Connexion",
+  "username" : "Nom d'utilisateur",
+  "entrez_votre_nom" : "Entrez votre nom",
+  "email": "Email",
+  "entrez_votre_email" : "Entrez votre email",
+  "password": "Mot de passe",
+  "entrez_votre_mot_de_passe" : "Entrez votre mot de passe",
+  "already_have_account" : "Vous avez déjà un compte ?",
+  "no_account" : "Vous n'avez pas de compte ?"
+}

@@ -10,12 +10,16 @@ import "../styles/banner.css";
 import Footer from "./footer";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
+import '../i18n';
 // import CareScale from "./CareScale";
 // import ProductItem from "./productItem";
 
 function App() {
   const savedCart = localStorage.getItem("cart");
   const [cart, updateCart] = useState(savedCart ? JSON.parse(savedCart) : []);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  // const [cart, setCart] = useState([]);
+
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(cart));
   });
@@ -26,9 +30,13 @@ function App() {
         <img src={logo} alt="Skincare by Tich" className="sbt-logo" />
         <h1 className="sbt-title text-red-400">SKINCARE BY TICH</h1>
       </Banner>
-      <Navbar className="w-full mr-10 bg-red-600" />
+      <Navbar setIsCartOpen={setIsCartOpen} />
       <div className="sbt-layout-inner">
-        <Cart cart={cart} updateCart={updateCart} />
+       
+        <Cart cart={cart} updateCart={updateCart} 
+           isCartOpen={isCartOpen} setIsCartOpen={setIsCartOpen} 
+        />
+   
         <ShoppingList cart={cart} updateCart={updateCart} />
       </div>
       <Footer />

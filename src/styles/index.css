@@ -23,14 +23,66 @@ code {
 }
 
 .sbt-cart {
-	color: black;
+	/* color: black;
 	background-color:bisque;
 	padding: 32px;
   display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 300px;
+	width: 300px; */
+
+  background: white;
+  width: 350px;
+  height: 100%;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
+
+.sbt-cart-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s , visibility 0s;
+  z-index: 1000;
+}
+
+.sbt-cart-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Bouton pour fermer le cart */
+.sbt-cart-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sbt-cart-close svg {
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.sbt-cart-close:hover svg {
+  color: #ff0000;
+}
+
 
 .sbt-cart-add-button {
   margin-left: 32px;
@@ -139,3 +191,109 @@ border-radius: 5px;
 /* .sbt-footer-elem {
 	margin-bottom: 10px;
 } */
+
+.login-popin-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index:  9999; 
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+                          
+
+}
+
+.login-popin-content{
+  background: #fff;
+  width: 350px; /* Largeur du pop-in */
+  height: 100vh; /* Prend toute la hauteur */
+  padding: 1.5rem;
+  /* border-radius: 12px; */
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  right: -350px;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+
+}
+.login-popin-open .login-popin-content{
+  right: 0;
+}
+
+.login-popin-content .login-popin-content-visible{
+  opacity: 1;
+  transform: translateX(0);
+}
+.login-popin-content h2{
+  text-align: center;
+}
+
+.login-popin-content form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+}
+
+.login-popin-content form div{
+  margin-bottom: 1rem;
+}
+
+.login-popin-content label{
+  font-weight: bold;
+  
+}
+
+.login-popin-content input{
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-popin-close-button{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+}
+
+.login-popin-submit-button{
+  padding: 0.75rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.login-popin-submit-button:hover{
+  background-color: #45a049;
+}
+
+.login-popin-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+.login-popin-button:hover {
+  color: #0056b3;
+}
